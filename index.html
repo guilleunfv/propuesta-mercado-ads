@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accenture | Proposta de Melhoria Operacional - Mercado Ads</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .accent-color {
+            color: #A100FF; /* Accenture Purple */
+        }
+        .bg-accent-color {
+            background-color: #A100FF;
+        }
+        .border-accent-color {
+            border-color: #A100FF;
+        }
+        .section-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <!-- Accenture Logo SVG -->
+                <svg class="h-8" viewBox="0 0 128 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M101.946 34.2252H127.99V27.5752H101.946V34.2252ZM83.1747 25.0452L90.8687 14.1272L89.8147 12.3512L95.6647 1.4332L97.7727 2.4872L91.9227 13.4052L92.9767 15.1812L87.1267 26.1012L85.0187 25.0452H83.1747ZM62.1947 25.0452L70.0987 14.1272L68.8347 12.3512L74.8947 1.4332L77.0027 2.4872L71.1527 13.4052L72.2067 15.1812L66.3567 26.1012L64.2487 25.0452H62.1947ZM41.2147 25.0452L49.1187 14.1272L47.8547 12.3512L53.9147 1.4332L56.0227 2.4872L50.1727 13.4052L51.2267 15.1812L45.3767 26.1012L43.2687 25.0452H41.2147ZM29.6107 34.2252H38.5687V0.565198H29.6107V34.2252ZM14.8027 34.2252H23.7607V13.2972L20.2447 17.0232L14.8027 13.2972V34.2252ZM0.208984 0.565198V34.2252H9.16698V13.2972L5.65098 17.0232L0.208984 13.2972V0.565198Z" fill="#1E1E1E"/>
+                </svg>
+                <span class="text-gray-400 text-2xl font-light">|</span>
+                <!-- Mercado Ads Logo Placeholder -->
+                <div class="flex items-center space-x-2">
+                     <svg class="h-8 w-8 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 2zM10 15a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 15zM10 7a3 3 0 100 6 3 3 0 000-6zM15.66 4.34a.75.75 0 10-1.06-1.06l-1.06 1.06a.75.75 0 001.06 1.06l1.06-1.06zM4.34 15.66a.75.75 0 10-1.06-1.06l-1.06 1.06a.75.75 0 101.06 1.06l1.06-1.06zM15.66 15.66a.75.75 0 101.06-1.06l-1.06-1.06a.75.75 0 10-1.06 1.06l1.06 1.06zM4.34 4.34a.75.75 0 101.06-1.06l-1.06-1.06a.75.75 0 00-1.06 1.06l1.06 1.06z" clip-rule="evenodd"></path></svg>
+                    <span class="text-xl font-semibold text-gray-700">Mercado Ads</span>
+                </div>
+            </div>
+            <h1 class="hidden md:block text-lg font-semibold accent-color">Proposta de Melhoria Operacional</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Introduction -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Acelerando a Eficiência e Qualidade</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Este documento detalha iniciativas estratégicas para otimizar a operação do Mercado Ads, com foco na gestão de chamadas, padronização de protocolos e na transformação dos fluxos de trabalho em Salesforce.
+            </p>
+        </section>
+
+        <!-- Initiatives Grid -->
+        <div class="space-y-12">
+
+            <!-- Initiative 1: AI Call Analysis -->
+            <article class="section-card p-8">
+                <div class="flex items-center mb-4">
+                    <div class="bg-purple-100 p-3 rounded-full mr-4">
+                        <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 6l12-3"></path></svg>
+                    </div>
+                    <div>
+                        <span class="text-sm font-semibold text-purple-600">Iniciativa 1</span>
+                        <h2 class="text-2xl font-bold text-gray-900">Otimização da Análise de Transcrições de Chamadas com IA</h2>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-8">
+                    Implementar uma infraestrutura automatizada para processar e analisar as transcrições de chamadas geradas pelo Gemini. Utilizaremos Google Cloud Storage (GCS) para armazenamento, integrações com GenAI para análises avançadas e a capacidade de filtrar por tópicos e especialistas, vinculando esses dados aos seus supervisores.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Quality Team -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-lg mb-2">Equipes de Qualidade</h3>
+                        <p class="text-sm text-gray-700"><strong class="accent-color">Benefício:</strong> Verificação mais eficiente e completa da qualidade do atendimento. Detecção precoce de padrões e áreas de melhoria no serviço.</p>
+                    </div>
+                    <!-- Supervisors -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-lg mb-2">Supervisores</h3>
+                        <p class="text-sm text-gray-700"><strong class="accent-color">Benefício:</strong> Monitoramento preciso do cumprimento dos tópicos exigidos nas chamadas. Identificação rápida de oportunidades de coaching.</p>
+                    </div>
+                    <!-- Agents -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-lg mb-2">Especialistas</h3>
+                        <p class="text-sm text-gray-700"><strong class="accent-color">Benefício:</strong> Feedback mais rápido e específico sobre seu desempenho, permitindo melhoria contínua e acelerando o desenvolvimento profissional.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Initiative 2: Salesforce Redesign -->
+            <article class="section-card p-8">
+                <div class="flex items-center mb-4">
+                    <div class="bg-purple-100 p-3 rounded-full mr-4">
+                        <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    </div>
+                    <div>
+                        <span class="text-sm font-semibold text-purple-600">Iniciativa 2</span>
+                        <h2 class="text-2xl font-bold text-gray-900">Melhoria de Processos no Salesforce (Redesenho de Fluxos)</h2>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-6">
+                    Os fluxos atuais de Onboarding e Development são longos, complexos e fragmentados, gerando ineficiências e um acompanhamento deficiente de métricas. A atribuição manual de contatos consome tempo valioso.
+                </p>
+
+                <div class="bg-purple-50 border-l-4 border-accent-color p-6 rounded-r-lg mb-8">
+                    <h3 class="font-bold text-xl mb-2 text-purple-800">Proposta Principal: "Console Inteligente" (Plano A)</h3>
+                    <p class="text-purple-900">
+                        Substituir os fluxos complexos por um único ciclo de vida do cliente com duas fases claras (Onboarding e Development), gerenciado a partir de uma única tela. Um Flow automatizará o fechamento de atividades, a mudança de status e a criação do "Kit de Gestão" mensal, eliminando tarefas repetitivas e manuais.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <h3 class="font-bold text-xl mb-2 text-gray-800">Alternativa: "Otimização sem Flows" (Plano B)</h3>
+                    <p class="text-gray-700">
+                        Se a criação de Flows não for viável, propomos reorganizar a página do Caso no Salesforce, criando uma nova aba "Gestão do Ciclo" com "Botões Inteligentes" (Ações Rápidas) que preencherão campos repetitivos automaticamente, simplificando a criação manual de tarefas e eventos.
+                    </p>
+                </div>
+            </article>
+
+            <!-- Initiative 3: Protocol Standardization -->
+            <article class="section-card p-8">
+                 <div class="flex items-center mb-4">
+                    <div class="bg-purple-100 p-3 rounded-full mr-4">
+                        <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                    </div>
+                    <div>
+                        <span class="text-sm font-semibold text-purple-600">Iniciativa 3</span>
+                        <h2 class="text-2xl font-bold text-gray-900">Padronização de Protocolos de Gestão de Clientes</h2>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-8">
+                    Integrar os "Protocolos para gestão" detalhados no playbook (como lidar com situações como "Sem contato", "No Show", etc.) diretamente no Salesforce. Isso fornecerá um guia claro e passo a passo para os especialistas, garantindo consistência e otimizando o tempo de resposta.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Agents -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-lg mb-2">Especialistas</h3>
+                        <p class="text-sm text-gray-700"><strong class="accent-color">Benefício:</strong> Guia claro e passo a passo sobre como proceder, diretamente em sua ferramenta de trabalho, reduzindo a incerteza.</p>
+                    </div>
+                    <!-- Supervisors -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-lg mb-2">Supervisores e Liderança</h3>
+                        <p class="text-sm text-gray-700"><strong class="accent-color">Benefício:</strong> Garantia de que os protocolos estão sendo aplicados uniformemente. Facilita a auditoria e o acompanhamento.</p>
+                    </div>
+                    <!-- Clients -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-lg mb-2">Clientes (Vendedores)</h3>
+                        <p class="text-sm text-gray-700"><strong class="accent-color">Benefício:</strong> Recebimento de um serviço mais consistente e previsível, melhorando a experiência geral com o Mercado Ads.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Conclusion -->
+            <section class="bg-gray-800 text-white rounded-lg p-8 text-center">
+                <h2 class="text-3xl font-bold mb-4">Conclusão e Próximos Passos</h2>
+                <p class="max-w-3xl mx-auto mb-6">
+                    Estas iniciativas representam um passo fundamental para uma operação mais ágil, eficiente e orientada a dados. A implementação do Plano A no Salesforce, combinada com a automação da análise de chamadas, otimizará as tarefas diárias e fornecerá uma visão mais precisa do desempenho para decisões estratégicas.
+                </p>
+                <p class="font-semibold">
+                    Recomendamos avaliar a viabilidade das permissões para o Plano A e, caso seja um obstáculo, proceder com o Plano B como uma melhoria substancial a curto prazo.
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-16 border-t">
+        <div class="container mx-auto px-6 py-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2024 Accenture. All Rights Reserved. | Proposta Confidencial para Mercado Ads</p>
+        </div>
+    </footer>
+
+</body>
+</html>
